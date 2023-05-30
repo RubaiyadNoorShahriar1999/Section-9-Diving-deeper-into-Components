@@ -18,10 +18,11 @@ export default {
 };
 </script>
 
-<style scoped>
+<!-- This scoped style is only accessible in this component. Not in  other components where we are sending the contents of this userInfo component.-->
+<!-- <style scoped>
 section header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-</style>
+</style> -->

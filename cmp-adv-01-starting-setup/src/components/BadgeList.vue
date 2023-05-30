@@ -1,10 +1,12 @@
 <template>
   <section>
     <base-card>
+      <!-- if we comment out the v-slot:header section we will able to see the functionalities of v-if="$slots.header" in BaseCard where the slot header is designed-->
       <template v-slot:header>
         <h2>Available Badges</h2>
       </template>
-      <template v-slot:default>
+      <!-- a SHORTHAND OF V-SLOT IS # -->
+      <template #default>
         <ul>
           <li>
             <base-badge type="admin" caption="ADMIN"></base-badge>
