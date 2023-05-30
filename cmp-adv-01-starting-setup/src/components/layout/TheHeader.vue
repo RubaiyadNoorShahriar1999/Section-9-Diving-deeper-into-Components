@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>More on Vue Components</h1>
+    <h1>Diving deeper into Vue Components</h1>
   </header>
 </template>
 
