@@ -3,7 +3,14 @@ Diving deeper into Components
 
 Section 9 contains:
 
-        1. Running...
+        1. Component registration (Global & Local)
+        2. Scoped Styles
+        3. Slots, Named Slots, Scoped Slots, Slot Styles
+        4. Dynamic Components
+        5. Keep-alive Vue tag
+        6. Teleport Vue tag
+        7. Fragments
+        8. Vue Style Guide
         
 
 <h2>To run this project</h2>
