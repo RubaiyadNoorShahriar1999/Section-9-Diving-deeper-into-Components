@@ -32,7 +32,7 @@
 
 <script>
 import TheHeader from "./components/layout/TheHeader.vue";
-// import BadgeList from "./components/BadgeList.vue";
+import BadgeList from "./components/BadgeList.vue";
 // import UserInfo from "./components/UserInfo.vue";
 // import CourseGoals from "./components/CourseGoals.vue";
 import ActiveGoals from "./components/ActiveGoals.vue";
@@ -41,7 +41,7 @@ import ManageGoals from "./components/ManageGoals.vue";
 export default {
   components: {
     TheHeader,
-    // BadgeList,
+    BadgeList,
     // UserInfo,
     // CourseGoals,
     ActiveGoals,
